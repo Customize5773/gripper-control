@@ -11,7 +11,7 @@ gripper-control/
 │
 ├── firmware/
 │   ├── src/
-│   │   └── main.cpp
+│   │   └── main.ino
 │   ├── include/
 │   └── platformio.ini
 │
