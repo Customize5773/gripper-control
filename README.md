@@ -517,60 +517,11 @@ All contributions must include:
 
 ---
 
-## Documentation Structure
-
-```
-gripper-control/
-│
-├── docs/                    # System documentation
-│   ├── system-overview.md   # This document
-│   ├── wiring.mermaid       # Connection diagrams
-│   └── bom.md              # Bill of Materials
-│
-├── firmware/               # Control software
-│   ├── src/main.cpp       # Primary control logic
-│   ├── include/           # Header files
-│   └── platformio.ini     # Build configuration
-│
-├── hardware/              # Mechanical/electrical designs
-│   ├── schematics/        # Circuit diagrams
-│   └── cad/              # 3D models and drawings
-│
-├── tools/                 # Utilities and scripts
-│   └── calibration.md    # Calibration procedures
-│
-├── examples/              # Usage examples
-├── tests/                # Test suites
-└── CONTRIBUTING.md       # Contribution guidelines
-```
-
 ### Additional Resources
 - [Arduino Reference](https://www.arduino.cc/reference/en/)
 - [Servo Motor Theory](https://www.servodatabase.com/)
 - [Control Systems Basics](https://www.controleng.com/)
-- [GitHub Discussions](https://github.com/yourusername/gripper-control/discussions)
-
----
-
-## Support and Community
-
-### Getting Help
-1. **Documentation**: First check the docs folder
-2. **GitHub Issues**: For bugs and feature requests
-3. **Discussions**: For questions and community support
-4. **Email**: project-email@example.com (for sensitive issues)
-
-### Community Channels
-- **Forum**: [Robotics Stack Exchange](https://robotics.stackexchange.com/)
-- **Discord**: [Embedded Systems Community](invite-link)
-- **Twitter**: @GripperControl (project updates)
-- **YouTube**: Tutorial videos and demonstrations
-
-### Professional Support
-For commercial applications or enterprise support, contact:
-- **Technical Consulting**: consulting@example.com
-- **Custom Development**: dev@example.com
-- **Training Workshops**: training@example.com
+- [GitHub Discussions](https://github.com/Customize5773/gripper-control/discussions)
 
 ---
 
@@ -586,7 +537,7 @@ When using this project, please cite:
 ```
 Gripper Control System v1.0.0
 Copyright (c) 2024 [Your Name]
-https://github.com/yourusername/gripper-control
+https://github.com/Customize5773/gripper-control
 ```
 
 ### Third-party Components
@@ -595,66 +546,6 @@ https://github.com/yourusername/gripper-control
 - Documentation: CC BY-SA 4.0
 
 ---
-
-## Acknowledgments
-
-### Contributors
-- **[Your Name]** - Project creator and maintainer
-- **[Contributor 1]** - Hardware design
-- **[Contributor 2]** - Firmware optimization
-- **[Contributor 3]** - Documentation
-
-### Inspiration
-- Open Source Robotics Foundation
-- Arduino community projects
-- Academic research in prosthetics
-- Industrial automation systems
-
-### Special Thanks
-- Testers and beta users
-- Documentation reviewers
-- Open source maintainers
-- Educational institutions using this project
-
-### Sponsors
-[Placeholder for sponsor logos/acknowledgments]
-
----
-
-## Citation
-
-If you use this project in academic work, please cite:
-
-```bibtex
-@software{gripper_control_2024,
-  title = {Gripper Control System: Open-source servo control platform},
-  author = {{Your Name} and Contributors},
-  year = {2024},
-  url = {https://github.com/yourusername/gripper-control},
-  version = {1.0.0},
-  license = {MIT}
-}
-```
-
----
-
-## Version History
-
-| Version | Date | Changes | Status |
-|---------|------|---------|--------|
-| v1.0.0 | 2024-01-01 | Initial release | ✅ Stable |
-| v1.0.1 | 2024-01-15 | Documentation fixes | ✅ Stable |
-| v1.1.0 | 2024-02-01 | Serial interface added | 🚧 Development |
-| v1.2.0 | 2024-03-01 | ROS integration | 📅 Planned |
-
----
-
-## Footer
-
-**Maintainer**: [Your Name]  
-**Contact**: your.email@example.com  
-**Website**: https://yourwebsite.com  
-**Repository**: https://github.com/yourusername/gripper-control  
 
 Last Updated: January 2024  
 Document Version: 1.0.0  
